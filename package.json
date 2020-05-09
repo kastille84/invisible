@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:build": "tsc -w",
+    "start:run": "nodemone build/index.js",
+    "start": "concurrently npm:start:*",
+    "test": "jest"
   },
   "author": "Edwin Martinez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^13.13.5",
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.3"
+  }
 }
