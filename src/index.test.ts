@@ -1,4 +1,4 @@
-import {logTimeWeather, isZip} from './';
+import { isZip} from './';
 
 describe("zipcode", () => {
 
