@@ -22,7 +22,7 @@
     "@types/node": "^13.13.5",
     "axios": "^0.19.2",
     "concurrently": "^5.2.0",
-    "moment": "^2.25.3",
+    "moment": "^2.29.4",
     "nodemon": "^2.0.3"
   }
 }
